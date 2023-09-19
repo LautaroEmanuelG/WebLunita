@@ -122,27 +122,27 @@
     font-size: 2rem;
 }
 
-.img__presentacion1 {
+.presentacion__img {
     height: 300px;
     padding: 1rem;
     border-radius: 50%;
 }
 
-article {
+.article {
     border-radius: 16px;
     background: var(--color-letrasClaras);
     transition: all 0.4s ease-in-out;
     overflow: hidden;
 }
 
-article h2 {
+.article h2 {
     margin: 0 0 18px 0;
     font-size: 1.9rem;
     color: var(--title-color);
     transition: color 0.3s ease-out;
 }
 
-article img {
+.article img {
     max-width: 100%;
     transform: scale(var(--img-scale));
     transition: transform 0.4s ease-in-out;
@@ -152,7 +152,7 @@ article img {
     padding: 24px;
 }
 
-article:has(:hover, :focus) {
+.article:has(:hover, :focus) {
     --img-scale: 1.1;
     --title-color: #28666e;
     --link-icon-translate: 0;
